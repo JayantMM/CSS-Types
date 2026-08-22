@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Types Example</title>
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        .internal {
+            background-color: lightyellow;
+            padding: 15px;
+            border: 2px solid orange;
+        }
+    </style>
+
+    <!-- Connecting External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>CSS Types in HTML</h1>
+
+    <!-- Inline CSS -->
+    <p style="color: red; font-size: 20px;">
+        This paragraph uses Inline CSS.
+    </p>
+
+    <!-- Internal CSS -->
+    <div class="internal">
+        This section uses Internal CSS.
+    </div>
+
+    <br>
+
+    <!-- External CSS -->
+    <div class="external">
+        This section uses External CSS.
+    </div>
+
+</body>
+</html>
